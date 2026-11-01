@@ -7,8 +7,8 @@ const items = [
     price: 24,
     image: "images/gruntz.webp",
     description: "If I could have any one game, it would be this one! It is like if chess was made in a World War I setting.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/02Zdj8xS", "https://a.co/d/02IrSZ4h"],
+    linksdescription: ["$24 on Amazon", "Supplies Expansion $15 on Amazon"],
     order: 1
   },
   {
@@ -18,8 +18,8 @@ const items = [
     price: 15,
     image: "images/ultratinyepicgalaxies.webp",
     description: "I love small games and this one is a whole space conquest game in a tiny box!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://www.nobleknight.com/P/2147790713/Ultra-Tiny-Epic-Galaxies?UTM_Campaign=BGG_Shop_Now&awid=1292&utm_source=user-shared"],
+    linksdescription: ["$15 on Noble Knight Games (might change)"],
     order: 2
   },
   {
@@ -40,8 +40,8 @@ const items = [
     price: 25,
     image: "images/gotfive.webp",
     description: "This little game is like a mix between Clue and Bingo! It should make for a really great family game.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0fl56Szz"],
+    linksdescription: ["$25 on Amazon"],
     order: 4
   },
   {
@@ -51,8 +51,8 @@ const items = [
     price: 38,
     image: "images/mantisfalls.webp",
     description: "Everyone is trying to get out of town away from the mob, but someone might be working for the mob!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0fsaPeao", "https://www.nobleknight.com/P/2147952616/Mantis-Falls?utm_source=user-shared"],
+    linksdescription: ["$38 on Amazon", "$25 on Noble Knight Games (might change)"],
     order: 5
   },
   {
@@ -62,8 +62,8 @@ const items = [
     price: 50,
     image: "images/burglebros.webp",
     description: "Everyone tries to pull off a heist together!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://www.fowers.games/collections/homepage-products/products/burgle-bros"],
+    linksdescription: ["$46 at Fowers Games"],
     order: 6
   },
   {
@@ -73,8 +73,8 @@ const items = [
     price: 50,
     image: "images/fugitive.webp",
     description: "One person is trying to escape the other in a hide and seek chase!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://www.nobleknight.com/P/2147675211/Fugitive-2016-Edition?utm_source=user-shared"],
+    linksdescription: ["$35 at Noble Knight Games (might change)"],
     order: 7
   },
   {
@@ -84,21 +84,21 @@ const items = [
     price: 40,
     image: "images/scotlandyard.webp",
     description: "One person is secretly moving around the board while everyone else tries to catch them. It's a lot of fun for both sides!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/07PpbYQv"],
+    linksdescription: ["$40 on Amazon"],
     order: 8
   },
-  {
-    id: "getaway-driver",
-    title: "Getaway Driver",
-    category: "board-games",
-    price: 10,
-    image: "images/getawaydriver.webp",
-    description: "Someone is trying to drive away from a crime scene and the other person is trying to catch them!",
-    links: [""],
-    linksdescription: ["TODO!:"],
-    order: 9
-  },
+  // {
+  //   id: "getaway-driver",
+  //   title: "Getaway Driver",
+  //   category: "board-games",
+  //   price: 10,
+  //   image: "images/getawaydriver.webp",
+  //   description: "Someone is trying to drive away from a crime scene and the other person is trying to catch them!",
+  //   links: [""],
+  //   linksdescription: [""],
+  //   order: 9
+  // },
   {
     id: "air-land-and-sea",
     title: "Air, Land, and Sea",
@@ -106,8 +106,8 @@ const items = [
     price: 23,
     image: "images/airlandsea.webp",
     description: "Two players are duelling over three different warzones!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://www.nobleknight.com/P/2147864666/Air-Land-and-Sea-revised-Edition?utm_source=user-shared", "https://a.co/d/002JY0WO"],
+    linksdescription: ["$18 at Noble Knight Games (might change)", "Sequel at $20 on Amazon"],
     order: 10
   },
   {
@@ -117,8 +117,8 @@ const items = [
     price: 30,
     image: "images/knightmarechess.webp",
     description: "Adds cards with special powers to chess!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://www.nobleknight.com/P/2147563073/Knightmare-Chess-3rd-Edition?UTM_Campaign=BGG_Shop_Now&awid=1292&utm_source=user-shared"],
+    linksdescription: ["$30 At Noble Knight Games (might change)"],
     order: 11
   },
   {
@@ -128,8 +128,8 @@ const items = [
     price: 40,
     image: "images/chessjoker.webp",
     description: "Chess, but each turn grants a new special move!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0bWouwnj"],
+    linksdescription: ["$32 on Amazon"],
     order: 12
   },
   {
@@ -139,8 +139,8 @@ const items = [
     price: 23,
     image: "images/forsale.webp",
     description: "Quick simple game about bidding on and selling houses! It's kind of like a small version of Monopoly!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0eItljRP"],
+    linksdescription: ["$30 on Amazon"],
     order: 13
   },
   {
@@ -150,8 +150,8 @@ const items = [
     price: 50,
     image: "images/farmsrace.webp",
     description: "You play as animals fighting the humans and each other to rule the world!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/08QEpRvx"],
+    linksdescription: ["$50 on Amazon"],
     order: 14
   },
   {
@@ -161,8 +161,8 @@ const items = [
     price: 40,
     image: "images/container.webp",
     description: "Everyone has to build, buy, and sell containers to each in order to keep their little businesses going!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://cloakandgamer.com/products/container?sca_ref=8686939.qwvyzR49hO"],
+    linksdescription: ["$40 at Cloak & Gamer (might change, should be pre-owned elsewhere too)"],
     order: 15
   },
   {
@@ -172,8 +172,8 @@ const items = [
     price: 70,
     image: "images/carcassonne.webp",
     description: "It's like Blokus but everyone is building a little kingdom countryside!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0h90w0cM"],
+    linksdescription: ["$70 on Amazon"],
     order: 16
   },
   {
@@ -183,8 +183,8 @@ const items = [
     price: 1,
     image: "images/legionbook.jpg",
     description: "A man solves murders with the help of his multiple personalities! I've heard really good things about this author.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/08VxdOPP", "https://www.thriftbooks.com/w/legion-the-many-lives-of-stephen-leeds_brandon-sanderson/18963126/?resultid=3e73df25-86cc-4df7-855c-242d91a8d891#edition=20215252&idiq=29691988"],
+    linksdescription: ["$18 on Amazon", "$8 on Thriftbooks (Might change)"],
     order: 1
   },
   {
@@ -194,8 +194,8 @@ const items = [
     price: 1,
     image: "images/stormfrontbook.jpg",
     description: "A wizard detective in the modern day. I've heard good things about this series.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/04pj69Eh", "https://www.thriftbooks.com/w/storm-front-by-jim-butcher/249959/?resultid=d670b03a-aeec-40b8-b4b7-d6e5a0351f36#edition=2400239&idiq=3816976"],
+    linksdescription: ["$10 on Amazon", "$7 on Thriftbooks (Might Change)"],
     order: 2
   },
   {
@@ -205,8 +205,8 @@ const items = [
     price: 1,
     image: "images/goldentorcbook.jpg",
     description: "The story of a secret agent with magical powers!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0hB156mi", "https://www.thriftbooks.com/w/the-man-with-the-golden-torc_simon-r-green/345934/?resultid=30cf005d-9acf-4f70-9089-e439ca98daf8#edition=4598779&idiq=2077981"],
+    linksdescription: ["$8 on Amazon", "$7 on Thriftbooks (Might Change)"],
     order: 3
   },
   {
@@ -216,8 +216,8 @@ const items = [
     price: 1,
     image: "images/allsystemsredbook.jpg",
     description: "A security robot \"wakes up\" and doesn't want to hurt people or do his job anymore.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0a0lKpmw"],
+    linksdescription: ["$10 on Amazon"],
     order: 4
   },
   {
@@ -227,8 +227,8 @@ const items = [
     price: 1,
     image: "images/lastpolicemanbook.jpg",
     description: "The world is ending and a detective has to try and solve a murder in a world where no one cares anymore.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/06D4xlIa", "https://www.thriftbooks.com/w/the-last-policeman_ben-h-winters/298560/?resultid=c12c84d5-12f2-4b24-905d-83a9c0e36712#edition=7281005&idiq=4170296"],
+    linksdescription: ["$11 on Amazon", "$7 on Thriftbooks (Might Change)"],
     order: 5
   },
   {
@@ -238,8 +238,8 @@ const items = [
     price: 1,
     image: "images/dyinginsidebook.jpg",
     description: "A lifetime telepath starts losing his ability to read minds.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/03691PTh"],
+    linksdescription: ["$15 on Amazon"],
     order: 6
   },
   {
@@ -249,8 +249,8 @@ const items = [
     price: 1,
     image: "images/jerusalembook.jpg",
     description: "Multiple people have recommended this one! Stories of many missionaries in all places throughout history.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0bsCuwsI", "https://www.thriftbooks.com/w/from-jerusalem-to-irian-jaya-a-biographical-history-of-christian-missions_ruth-a-tucker/255254/?resultid=086973d4-e8b3-4920-89f5-2002e6c945e2#edition=3062254&idiq=6942152"],
+    linksdescription: ["$30 on Amazon", "15 on Thriftbooks (Might Change)"],
     order: 7
   },
   {
@@ -260,8 +260,8 @@ const items = [
     price: 1,
     image: "images/youcanchangebook.jpg",
     description: "Just seems like a nice practical book on change from a christian perspective.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0e6R6BHG", "https://www.thriftbooks.com/w/you-can-change_tim-chester/301316/?resultid=4eec5a70-5beb-40d7-bcca-21a720ba9eea#edition=5745553&idiq=4595985"],
+    linksdescription: ["$15 on Amazon", "$7 on Thriftbooks (might change)"],
     order: 8
   },
   {
@@ -271,8 +271,8 @@ const items = [
     price: 1,
     image: "images/servingjesusburnout.jpg",
     description: "Seminary has taught me that I need this book haha.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/03MrBrL3", "https://www.thriftbooks.com/w/serving-jesus-without-burning-out-faithful-ministry-for-the-long-haul_dr-d-scott-hildreth_steven-a-mckinion/53671374/?resultid=b9550253-efb5-4a11-988f-ead701accd63#edition=71796494&idiq=71867281"],
+    linksdescription: ["$18 on Amazon", "$18 on Thriftbooks (May Change)"],
     order: 9
   },
   {
@@ -282,8 +282,8 @@ const items = [
     price: 1,
     image: "images/livingsacrificebook.jpg",
     description: "The story of a missionary who went through hardship and showed an example of being a living sacrifice.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0jhgNwmG"],
+    linksdescription: ["$12 on Amazon"],
     order: 10
   },
   {
@@ -293,8 +293,8 @@ const items = [
     price: 15,
     image: "images/completeshortstoriesgreene.jpg",
     description: "A collection of short stories from an author I have really liked.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0anWMvKV"],
+    linksdescription: ["$17 on Amazon"],
     order: 11
   },
   {
@@ -303,9 +303,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/heartofthematterbook.jpg",
-    description: "The story of a man trying to do the most good he can when he's in a difficult position. I like this author.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    description: "The story of a man trying to do the most good he can in a difficult position. I like this author.",
+    links: ["https://a.co/d/08xNsRhd", "https://www.thriftbooks.com/w/the-heart-of-the-matter_graham-greene/291081/?resultid=ff5dea51-deca-480c-ace9-7e6286434b3e#edition=4188473&idiq=4893972"],
+    linksdescription: ["$18 on Amazon", "$7 on Thriftbooks (might change)"],
     order: 12
   },
   {
@@ -315,8 +315,8 @@ const items = [
     price: 1,
     image: "images/violentcenturybook.jpg",
     description: "How superheroes might have changed history if they appeared right after WWII!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/07e5JWFH", "https://www.thriftbooks.com/w/the-violent-century_lavie-tidhar/8899191/?resultid=eb226ff6-582d-4bae-a5bb-9008c1cb2612#edition=8699030&idiq=10929564"],
+    linksdescription: ["$17 on Amazon", "$6 on Thriftbooks (might change)"],
     order: 13
   },
   {
@@ -326,8 +326,8 @@ const items = [
     price: 1,
     image: "images/hike.jpg",
     description: "Since I'm interested in backpacking and hiking, I figured this would be a good book to train for them.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0ieaNqJD"],
+    linksdescription: ["$17 on Amazon"],
     order: 14
   },
   {
@@ -337,8 +337,8 @@ const items = [
     price: 1,
     image: "images/makeitstick.jpg",
     description: "I've heard good things about this learning book. I need all the help I can get!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/01bAyVFW", "https://www.thriftbooks.com/w/make-it-stick-the-science-of-successful-learning_henry-l-roediger-iii_peter-c-brown/9045063/?resultid=be7dce3a-8915-41e7-8565-3efff6c867db#edition=8324513&idiq=7186350"],
+    linksdescription: ["$34 on Amazon", "$25 on Thriftbooks"],
     order: 15
   },
   {
@@ -348,8 +348,8 @@ const items = [
     price: 1,
     image: "images/shouldershobbitsbook.jpg",
     description: "Seems like an interesting philosophical book about Lord of the Rings and Narnia.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0bzG3q8r"],
+    linksdescription: ["$14 on Amazon"],
     order: 16
   },
   {
@@ -359,8 +359,8 @@ const items = [
     price: 1,
     image: "images/greenlanternbook.jpg",
     description: "This just seems lika really interesting mix of superhero and philosophy!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/05b4vg8A", "https://www.thriftbooks.com/w/green-lantern-and-philosophy-no-evil-shall-escape-this-book_mark-d-white_andrew-zimmerman-jones/984285/?resultid=90449357-fdab-4220-8184-18f71ce00cd0#edition=7545303&idiq=5494242"],
+    linksdescription: ["$20 on Amazon", "$8 on Thriftbooks"],
     order: 17
   },
   {
@@ -370,8 +370,8 @@ const items = [
     price: 1,
     image: "images/logicalchessbook.jpg",
     description: "I would like to learn how to play chess better.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/08SxEwST"],
+    linksdescription: ["$23 on Amazon"],
     order: 18
   },
   {
@@ -381,8 +381,8 @@ const items = [
     price: 1,
     image: "images/boardgamemovesbook.jpg",
     description: "Seems like a really interesting book on the history of board games.",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0hM8tP56", "https://www.thriftbooks.com/w/board-games-in-100-moves_ian-livingstone/20176361/?resultid=c81dfecc-dc57-46ed-b5af-edf4b69da528#edition=21476689&idiq=48051807"],
+    linksdescription: ["$19 on Amazon", "$9 on Thriftbooks (might change)"],
     order: 19
   },
   {
@@ -392,8 +392,8 @@ const items = [
     price: 1,
     image: "images/yourturnbook.jpg",
     description: "Seems like a really useful book about designing your own board games!",
-    links: [""],
-    linksdescription: ["TODO!:"],
+    links: ["https://a.co/d/0id4M0Oa"],
+    linksdescription: ["$26 on Amazon"],
     order: 20
   },
   {

@@ -1,4 +1,4 @@
-- [ ] Go through everything and give them proper links
+- [X] Go through everything and give them proper links
 - [X] Go through everything and give them proper descriptions
 - [X] The type display on the cards could be a darker gray.
 - [X] There is probably a bit too much padding on the cards
@@ -7,11 +7,9 @@
     - [X] Hike Strong
     - [X] Any Book You Recommend!
     - [X] Weird or Foreign Food!
-- [ ] What about the things that had extra stuff, like gruntz?
-    - [ ] Gruntz supplies
-    - [ ] Spies lies and supplies
-    - [ ] Farms Race Upgrade?
-    - [ ] Maybe loop case sleeve into the ereader?
+- [X] What about the things that had extra stuff, like gruntz?
+    - [X] Gruntz supplies
+    - [X] Spies lies and supplies
 - [ ] Maybe reorder things in terms of priority?
 - [X] Center the random book?
 - [ ] Deploy on the website.
