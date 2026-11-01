@@ -39,7 +39,7 @@ const items = [
     category: "board-games",
     price: 25,
     image: "images/gotfive.webp",
-    description: "This little game is like a mix between Clue and Bingo! It should make for a really great family game.",
+    description: "This game is like a mix between Clue and Bingo! It should make for a really great family game.",
     links: ["https://a.co/d/0fl56Szz"],
     linksdescription: ["$25 on Amazon"],
     order: 4
@@ -61,7 +61,7 @@ const items = [
     category: "board-games",
     price: 23,
     image: "images/forsale.webp",
-    description: "Quick simple game about bidding on and selling houses! It's kind of like a small version of Monopoly!",
+    description: "Quick simple game about buying houses for auction and selling them! It's kind of like a small version of Monopoly!",
     links: ["https://a.co/d/0eItljRP"],
     linksdescription: ["$30 on Amazon"],
     order: 13
@@ -127,7 +127,7 @@ const items = [
     category: "board-games",
     price: 50,
     image: "images/fugitive.webp",
-    description: "One person is trying to escape the other in a hide and seek chase!",
+    description: "One person is trying to escape from the other in a hide and seek chase!",
     links: ["https://www.nobleknight.com/P/2147675211/Fugitive-2016-Edition?utm_source=user-shared"],
     linksdescription: ["$35 at Noble Knight Games (might change)"],
     order: 7
@@ -171,7 +171,7 @@ const items = [
     category: "board-games",
     price: 40,
     image: "images/container.webp",
-    description: "Everyone has to build, buy, and sell containers to each in order to keep their little businesses going!",
+    description: "Everyone frantically tries to build, buy, and sell to keep their little businesses going!",
     links: ["https://cloakandgamer.com/products/container?sca_ref=8686939.qwvyzR49hO"],
     linksdescription: ["$40 at Cloak & Gamer (might change, should be pre-owned elsewhere too)"],
     order: 15
@@ -193,7 +193,7 @@ const items = [
     category: "books",
     price: 15,
     image: "images/completeshortstoriesgreene.jpg",
-    description: "A collection of short stories from an author I have really liked.",
+    description: "A collection of short stories from an author I really like.",
     links: ["https://a.co/d/0anWMvKV"],
     linksdescription: ["$17 on Amazon"],
     order: 11
@@ -259,7 +259,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/goldentorcbook.jpg",
-    description: "The story of a secret agent with magical powers!",
+    description: "A secret agent with magical powers!",
     links: ["https://a.co/d/0hB156mi", "https://www.thriftbooks.com/w/the-man-with-the-golden-torc_simon-r-green/345934/?resultid=30cf005d-9acf-4f70-9089-e439ca98daf8#edition=4598779&idiq=2077981"],
     linksdescription: ["$8 on Amazon", "$7 on Thriftbooks (Might Change)"],
     order: 3
@@ -292,7 +292,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/livingsacrificebook.jpg",
-    description: "The story of a missionary who went through hardship and showed an example of being a living sacrifice.",
+    description: "The story of a missionary who went through hardship and was a true example of being a living sacrifice.",
     links: ["https://a.co/d/0jhgNwmG"],
     linksdescription: ["$12 on Amazon"],
     order: 10
@@ -314,7 +314,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/hike.jpg",
-    description: "Since I'm interested in backpacking and hiking, I figured this would be a good book to train for them.",
+    description: "Since I'm interested in backpacking and hiking, I figured this would be a good book to train for those things.",
     links: ["https://a.co/d/0ieaNqJD"],
     linksdescription: ["$17 on Amazon"],
     order: 14
@@ -336,7 +336,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/makeitstick.jpg",
-    description: "I've heard good things about this learning book. I need all the help I can get!",
+    description: "I've heard good things about this book on learning. I need all the help I can get!",
     links: ["https://a.co/d/01bAyVFW", "https://www.thriftbooks.com/w/make-it-stick-the-science-of-successful-learning_henry-l-roediger-iii_peter-c-brown/9045063/?resultid=be7dce3a-8915-41e7-8565-3efff6c867db#edition=8324513&idiq=7186350"],
     linksdescription: ["$34 on Amazon", "$25 on Thriftbooks"],
     order: 15
@@ -347,7 +347,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/violentcenturybook.jpg",
-    description: "How superheroes might have changed history if they appeared right after WWII!",
+    description: "How superheroes might have changed history if they appeared right after World War II!",
     links: ["https://a.co/d/07e5JWFH", "https://www.thriftbooks.com/w/the-violent-century_lavie-tidhar/8899191/?resultid=eb226ff6-582d-4bae-a5bb-9008c1cb2612#edition=8699030&idiq=10929564"],
     linksdescription: ["$17 on Amazon", "$6 on Thriftbooks (might change)"],
     order: 13
@@ -369,7 +369,7 @@ const items = [
     category: "books",
     price: 1,
     image: "images/greenlanternbook.jpg",
-    description: "This just seems lika really interesting mix of superhero and philosophy!",
+    description: "This just seems like a really interesting mix of superhero and philosophy!",
     links: ["https://a.co/d/05b4vg8A", "https://www.thriftbooks.com/w/green-lantern-and-philosophy-no-evil-shall-escape-this-book_mark-d-white_andrew-zimmerman-jones/984285/?resultid=90449357-fdab-4220-8184-18f71ce00cd0#edition=7545303&idiq=5494242"],
     linksdescription: ["$20 on Amazon", "$8 on Thriftbooks"],
     order: 17
@@ -413,7 +413,7 @@ const items = [
     category: "other",
     price: 1,
     image: "images/mysterygift.png",
-    description: "I would love any kind of gift of food, especially if it is weird or new to try. Especially if we can try it together!",
+    description: "I would love any kind of weird or new food to try. Especially if we can try it together!",
     links: [],
     linksdescription: [],
     order: 1
@@ -424,7 +424,7 @@ const items = [
     category: "other",
     price: 25,
     image: "images/earplugs.jpg",
-    description: "I've been using blutooth headphones to sleep, I think these would be better on my ears.",
+    description: "I've been using bluetooth headphones to sleep, I think these would be better on my ears.",
     links: ["https://a.co/d/062uk5Hh"],
     linksdescription: ["$25 on Amazon"],
     order: 2
@@ -468,7 +468,7 @@ const items = [
     category: "other",
     price: 30,
     image: "images/gloves.jpg",
-    description: "I think these gloves seem nice.",
+    description: "I think these gloves seem nice. Large looks like the right size.",
     links: ["https://a.co/d/0byAfE6D"],
     linksdescription: ["$30 on Amazon"],
     order: 10
@@ -490,7 +490,7 @@ const items = [
     category: "other",
     price: 160,
     image: "images/ereader.jpg",
-    description: "I think it would be nice to have a new e-reader. Carrying around books everywhere is a chore haha.",
+    description: "Honestly not a priority, I think it might possibly be nice to have a new e-reader.",
     links: ["https://a.co/d/020sbkE6"],
     linksdescription: ["$160 on Amazon"],
     order: 12
