@@ -6,9 +6,9 @@ const items = [
     category: "board-games",
     price: 24,
     image: "images/gruntz.webp",
-    description: "A compact game I'm particularly excited to try.",
+    description: "If I could have any one game, it would be this one! It is like if chess was made in a World War I setting.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 1
   },
   {
@@ -17,9 +17,9 @@ const items = [
     category: "board-games",
     price: 15,
     image: "images/ultratinyepicgalaxies.webp",
-    description: "A small space-themed game.",
+    description: "I love small games and this one is a whole space conquest game in a tiny box!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 2
   },
   {
@@ -41,7 +41,7 @@ const items = [
     image: "images/gotfive.webp",
     description: "This little game is like a mix between Clue and Bingo! It should make for a really great family game.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 4
   },
   {
@@ -52,7 +52,7 @@ const items = [
     image: "images/mantisfalls.webp",
     description: "Everyone is trying to get out of town away from the mob, but someone might be working for the mob!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 5
   },
   {
@@ -63,7 +63,7 @@ const items = [
     image: "images/burglebros.webp",
     description: "Everyone tries to pull off a heist together!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 6
   },
   {
@@ -74,7 +74,7 @@ const items = [
     image: "images/fugitive.webp",
     description: "One person is trying to escape the other in a hide and seek chase!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 7
   },
   {
@@ -85,7 +85,7 @@ const items = [
     image: "images/scotlandyard.webp",
     description: "One person is secretly moving around the board while everyone else tries to catch them. It's a lot of fun for both sides!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 8
   },
   {
@@ -96,7 +96,7 @@ const items = [
     image: "images/getawaydriver.webp",
     description: "Someone is trying to drive away from a crime scene and the other person is trying to catch them!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 9
   },
   {
@@ -107,7 +107,7 @@ const items = [
     image: "images/airlandsea.webp",
     description: "Two players are duelling over three different warzones!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 10
   },
   {
@@ -118,7 +118,7 @@ const items = [
     image: "images/knightmarechess.webp",
     description: "Adds cards with special powers to chess!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 11
   },
   {
@@ -129,7 +129,7 @@ const items = [
     image: "images/chessjoker.webp",
     description: "Chess, but each turn grants a new special move!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 12
   },
   {
@@ -140,7 +140,7 @@ const items = [
     image: "images/forsale.webp",
     description: "Quick simple game about bidding on and selling houses! It's kind of like a small version of Monopoly!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 13
   },
   {
@@ -151,7 +151,7 @@ const items = [
     image: "images/farmsrace.webp",
     description: "You play as animals fighting the humans and each other to rule the world!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 14
   },
   {
@@ -162,7 +162,7 @@ const items = [
     image: "images/container.webp",
     description: "Everyone has to build, buy, and sell containers to each in order to keep their little businesses going!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 15
   },
   {
@@ -173,7 +173,7 @@ const items = [
     image: "images/carcassonne.webp",
     description: "It's like Blokus but everyone is building a little kingdom countryside!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 16
   },
   {
@@ -182,9 +182,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/legionbook.jpg",
-    description: "",
+    description: "A man solves murders with the help of his multiple personalities! I've heard really good things about this author.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 1
   },
   {
@@ -193,9 +193,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/stormfrontbook.jpg",
-    description: "",
+    description: "A wizard detective in the modern day. I've heard good things about this series.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 2
   },
   {
@@ -204,9 +204,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/goldentorcbook.jpg",
-    description: "",
+    description: "The story of a secret agent with magical powers!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 3
   },
   {
@@ -215,9 +215,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/allsystemsredbook.jpg",
-    description: "",
+    description: "A security robot \"wakes up\" and doesn't want to hurt people or do his job anymore.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 4
   },
   {
@@ -226,9 +226,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/lastpolicemanbook.jpg",
-    description: "",
+    description: "The world is ending and a detective has to try and solve a murder in a world where no one cares anymore.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 5
   },
   {
@@ -237,9 +237,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/dyinginsidebook.jpg",
-    description: "",
+    description: "A lifetime telepath starts losing his ability to read minds.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 6
   },
   {
@@ -248,9 +248,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/jerusalembook.jpg",
-    description: "",
+    description: "Multiple people have recommended this one! Stories of many missionaries in all places throughout history.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 7
   },
   {
@@ -259,9 +259,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/youcanchangebook.jpg",
-    description: "",
+    description: "Just seems like a nice practical book on change from a christian perspective.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 8
   },
   {
@@ -269,10 +269,10 @@ const items = [
     title: "Serving Jesus Without Burning Out",
     category: "books",
     price: 1,
-    image: "images/undefined.jpg",
-    description: "",
+    image: "images/servingjesusburnout.jpg",
+    description: "Seminary has taught me that I need this book haha.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 9
   },
   {
@@ -281,9 +281,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/livingsacrificebook.jpg",
-    description: "",
+    description: "The story of a missionary who went through hardship and showed an example of being a living sacrifice.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 10
   },
   {
@@ -294,7 +294,7 @@ const items = [
     image: "images/completeshortstoriesgreene.jpg",
     description: "A collection of short stories from an author I have really liked.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 11
   },
   {
@@ -303,9 +303,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/heartofthematterbook.jpg",
-    description: "",
+    description: "The story of a man trying to do the most good he can when he's in a difficult position. I like this author.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 12
   },
   {
@@ -314,9 +314,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/violentcenturybook.jpg",
-    description: "",
+    description: "How superheroes might have changed history if they appeared right after WWII!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 13
   },
   {
@@ -324,10 +324,10 @@ const items = [
     title: "Hike Strong",
     category: "books",
     price: 1,
-    image: "images/undefined.jpg",
-    description: "",
+    image: "images/hike.jpg",
+    description: "Since I'm interested in backpacking and hiking, I figured this would be a good book to train for them.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 14
   },
   {
@@ -336,9 +336,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/makeitstick.jpg",
-    description: "",
+    description: "I've heard good things about this learning book. I need all the help I can get!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 15
   },
   {
@@ -347,9 +347,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/shouldershobbitsbook.jpg",
-    description: "",
+    description: "Seems like an interesting philosophical book about Lord of the Rings and Narnia.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 16
   },
   {
@@ -358,9 +358,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/greenlanternbook.jpg",
-    description: "",
+    description: "This just seems lika really interesting mix of superhero and philosophy!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 17
   },
   {
@@ -369,9 +369,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/logicalchessbook.jpg",
-    description: "",
+    description: "I would like to learn how to play chess better.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 18
   },
   {
@@ -380,9 +380,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/boardgamemovesbook.jpg",
-    description: "",
+    description: "Seems like a really interesting book on the history of board games.",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 19
   },
   {
@@ -391,9 +391,9 @@ const items = [
     category: "books",
     price: 1,
     image: "images/yourturnbook.jpg",
-    description: "",
+    description: "Seems like a really useful book about designing your own board games!",
     links: [""],
-    linksdescription: ["writeDescriptionHere"],
+    linksdescription: ["TODO!:"],
     order: 20
   },
   {
@@ -401,7 +401,7 @@ const items = [
     title: "Any Book you Recommend!",
     category: "books",
     price: 1,
-    image: "images/undefined.jpg",
+    image: "images/mysterygift.png",
     description: "I would love any book you enjoy or would recommend to me!",
     links: [],
     linksdescription: [],
@@ -412,8 +412,8 @@ const items = [
     title: "Any Weird or Foreign Food to Try!",
     category: "other",
     price: 1,
-    image: "images/undefined.jpg",
-    description: "",
+    image: "images/mysterygift.png",
+    description: "I would love any kind of gift of food, especially if it is weird or new to try. Especially if we can try it together!",
     links: [],
     linksdescription: [],
     order: 1
@@ -424,7 +424,7 @@ const items = [
     category: "other",
     price: 25,
     image: "images/earplugs.jpg",
-    description: "",
+    description: "I've been using blutooth headphones to sleep, I think these would be better on my ears.",
     links: ["https://a.co/d/062uk5Hh"],
     linksdescription: ["$25 on Amazon"],
     order: 2
@@ -435,7 +435,7 @@ const items = [
     category: "other",
     price: 40,
     image: "images/eyemask.jpg",
-    description: "",
+    description: "My bluetooth headband doesn't keep out all the light, so I think this would be helpful.",
     links: ["https://a.co/d/05t9i5zH"],
     linksdescription: ["$40 on Amazon"],
     order: 3
@@ -446,7 +446,7 @@ const items = [
     category: "other",
     price: 7,
     image: "images/foldingtable.jpg",
-    description: "",
+    description: "This would be really helpful when reading and using my laptop or taking notes.",
     links: ["https://a.co/d/00RePOJA"],
     linksdescription: ["$7 on Amazon"],
     order: 4
@@ -457,7 +457,7 @@ const items = [
     category: "other",
     price: 9,
     image: "images/book_magic.jpg",
-    description: "",
+    description: "Less useful than the stand but this seems interesting.",
     links: ["https://a.co/d/0bJFU5Fn"],
     linksdescription: ["$9 on Amazon"],
     order: 5
@@ -468,7 +468,7 @@ const items = [
     category: "other",
     price: 6,
     image: "images/toothpicks.jpg",
-    description: "",
+    description: "I just think this might be nice to have.",
     links: ["https://a.co/d/06JKs2qU"],
     linksdescription: ["$6 on Amazon"],
     order: 6
@@ -479,7 +479,7 @@ const items = [
     category: "other",
     price: 15,
     image: "images/watchstrap.jpg",
-    description: "",
+    description: "I would like to have a brown strap for my watch so I can wear it and my brown belt together.",
     links: ["https://a.co/d/0bd9e4sd"],
     linksdescription: ["$15 on Amazon"],
     order: 7
@@ -490,7 +490,7 @@ const items = [
     category: "other",
     price: 15,
     image: "images/booklight.jpg",
-    description: "",
+    description: "It would be nice just to have a little reading light.",
     links: ["https://a.co/d/05p2W1oa"],
     linksdescription: ["$15 on Amazon"],
     order: 8
@@ -501,7 +501,7 @@ const items = [
     category: "other",
     price: 24,
     image: "images/foldingtable.jpg",
-    description: "",
+    description: "I think in nice weather I might be able to do some studying or eat a meal outside or something. Would just be useful to have in my car in case.",
     links: ["https://a.co/d/064WWJnG"],
     linksdescription: ["$24 on Amazon"],
     order: 9
@@ -512,7 +512,7 @@ const items = [
     category: "other",
     price: 30,
     image: "images/gloves.jpg",
-    description: "",
+    description: "I think these gloves seem nice.",
     links: ["https://a.co/d/0byAfE6D"],
     linksdescription: ["$30 on Amazon"],
     order: 10
@@ -523,7 +523,7 @@ const items = [
     category: "other",
     price: 37,
     image: "images/shirt.jpg",
-    description: "",
+    description: "I really like this shirt.",
     links: ["https://a.co/d/06JcUIMU"],
     linksdescription: ["$37 on Amazon"],
     order: 11
@@ -534,7 +534,7 @@ const items = [
     category: "other",
     price: 160,
     image: "images/ereader.jpg",
-    description: "",
+    description: "I think it would be nice to have a new e-reader. Carrying around books everywhere is a chore haha.",
     links: ["https://a.co/d/020sbkE6"],
     linksdescription: ["$160 on Amazon"],
     order: 12
@@ -545,7 +545,7 @@ const items = [
     category: "other",
     price: 10,
     image: "images/kobocase.jpg",
-    description: "",
+    description: "This is a case for the ereader.",
     links: ["https://a.co/d/0dz5AZak"],
     linksdescription: ["$10 on Amazon"],
     order: 13
@@ -556,7 +556,7 @@ const items = [
     category: "other",
     price: 14,
     image: "images/kobopocket.jpg",
-    description: "",
+    description: "A protective sleeve for the ereader, if I get one I really want to keep it safe!",
     links: ["https://a.co/d/0aw5bFQa"],
     linksdescription: ["$14 on Amazon"],
     order: 14
