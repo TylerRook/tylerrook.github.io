@@ -1,6 +1,50 @@
 
 const items = [
   {
+    id: "ear-plugs",
+    title: "Reusable Earplugs for Sleeping",
+    category: "other",
+    price: 25,
+    image: "images/earplugs.jpg",
+    description: "I've been using bluetooth headphones to sleep, I think these would be better on my ears.",
+    links: ["https://a.co/d/062uk5Hh"],
+    linksdescription: ["$25 on Amazon"],
+    order: 2
+  },
+  {
+    id: "sleep-mask",
+    title: "Manta Sleep Mask",
+    category: "other",
+    price: 40,
+    image: "images/eyemask.jpg",
+    description: "My bluetooth headband doesn't keep out all the light, so I think this would be helpful.",
+    links: ["https://a.co/d/05t9i5zH"],
+    linksdescription: ["$40 on Amazon"],
+    order: 3
+  },
+  {
+    id: "book-stand",
+    title: "Folding Book Stand",
+    category: "other",
+    price: 7,
+    image: "images/bookstand.jpg",
+    description: "This would be really helpful when reading and using my laptop or taking notes.",
+    links: ["https://a.co/d/00RePOJA"],
+    linksdescription: ["$7 on Amazon"],
+    order: 4
+  },
+  {
+    id: "shirt",
+    title: "This Nice Shirt",
+    category: "other",
+    price: 37,
+    image: "images/shirt.jpg",
+    description: "I really like this shirt.",
+    links: ["https://a.co/d/06JcUIMU"],
+    linksdescription: ["$37 on Amazon"],
+    order: 11
+  },
+  {
     id: "gruntz",
     title: "Gruntz",
     category: "board-games",
@@ -32,149 +76,6 @@ const items = [
     links: ["https://a.co/d/08VAC54j"],
     linksdescription: ["$10 on Amazon"],
     order: 3
-  },
-  {
-    id: "got-five",
-    title: "Got Five!",
-    category: "board-games",
-    price: 25,
-    image: "images/gotfive.webp",
-    description: "This game is like a mix between Clue and Bingo! It should make for a really great family game.",
-    links: ["https://a.co/d/0fl56Szz"],
-    linksdescription: ["$25 on Amazon"],
-    order: 4
-  },
-  {
-    id: "scotland-yard",
-    title: "Scotland Yard: Sherlock Holmes",
-    category: "board-games",
-    price: 40,
-    image: "images/scotlandyard.webp",
-    description: "One person is secretly moving around the board while everyone else tries to catch them. It's a lot of fun for both sides!",
-    links: ["https://a.co/d/07PpbYQv"],
-    linksdescription: ["$40 on Amazon"],
-    order: 8
-  },
-  {
-    id: "for-sale",
-    title: "For Sale",
-    category: "board-games",
-    price: 23,
-    image: "images/forsale.webp",
-    description: "Quick simple game about buying houses for auction and selling them! It's kind of like a small version of Monopoly!",
-    links: ["https://a.co/d/0eItljRP"],
-    linksdescription: ["$30 on Amazon"],
-    order: 13
-  },
-  {
-    id: "knightmare-chess",
-    title: "Knightmare Chess",
-    category: "board-games",
-    price: 30,
-    image: "images/knightmarechess.webp",
-    description: "Adds cards with special powers to chess!",
-    links: ["https://www.nobleknight.com/P/2147563073/Knightmare-Chess-3rd-Edition?UTM_Campaign=BGG_Shop_Now&awid=1292&utm_source=user-shared"],
-    linksdescription: ["$30 At Noble Knight Games (might change)"],
-    order: 11
-  },
-  {
-    id: "chess-joker",
-    title: "Chess Joker",
-    category: "board-games",
-    price: 40,
-    image: "images/chessjoker.webp",
-    description: "Chess, but each turn grants a new special move!",
-    links: ["https://a.co/d/0bWouwnj"],
-    linksdescription: ["$32 on Amazon"],
-    order: 12
-  },
-  {
-    id: "air-land-and-sea",
-    title: "Air, Land, and Sea",
-    category: "board-games",
-    price: 23,
-    image: "images/airlandsea.webp",
-    description: "Two players are duelling over three different warzones!",
-    links: ["https://www.nobleknight.com/P/2147864666/Air-Land-and-Sea-revised-Edition?utm_source=user-shared", "https://a.co/d/002JY0WO"],
-    linksdescription: ["$18 at Noble Knight Games (might change)", "Sequel at $20 on Amazon"],
-    order: 10
-  },
-  {
-    id: "mantis-falls",
-    title: "Mantis Falls",
-    category: "board-games",
-    price: 38,
-    image: "images/mantisfalls.webp",
-    description: "Everyone is trying to get out of town away from the mob, but someone might be working for the mob!",
-    links: ["https://a.co/d/0fsaPeao", "https://www.nobleknight.com/P/2147952616/Mantis-Falls?utm_source=user-shared"],
-    linksdescription: ["$38 on Amazon", "$25 on Noble Knight Games (might change)"],
-    order: 5
-  },
-  {
-    id: "burgle-bros",
-    title: "Burgle Bros",
-    category: "board-games",
-    price: 50,
-    image: "images/burglebros.webp",
-    description: "Everyone tries to pull off a heist together!",
-    links: ["https://www.fowers.games/collections/homepage-products/products/burgle-bros"],
-    linksdescription: ["$46 at Fowers Games"],
-    order: 6
-  },
-  {
-    id: "fugitive",
-    title: "Fugitive",
-    category: "board-games",
-    price: 50,
-    image: "images/fugitive.webp",
-    description: "One person is trying to escape from the other in a hide and seek chase!",
-    links: ["https://www.nobleknight.com/P/2147675211/Fugitive-2016-Edition?utm_source=user-shared"],
-    linksdescription: ["$35 at Noble Knight Games (might change)"],
-    order: 7
-  },
-  // {
-  //   id: "getaway-driver",
-  //   title: "Getaway Driver",
-  //   category: "board-games",
-  //   price: 10,
-  //   image: "images/getawaydriver.webp",
-  //   description: "Someone is trying to drive away from a crime scene and the other person is trying to catch them!",
-  //   links: [""],
-  //   linksdescription: [""],
-  //   order: 9
-  // },
-  {
-    id: "carcassonne",
-    title: "Carcassonne: Big Box",
-    category: "board-games",
-    price: 70,
-    image: "images/carcassonne.webp",
-    description: "It's like Blokus but everyone is building a little kingdom countryside!",
-    links: ["https://a.co/d/0h90w0cM"],
-    linksdescription: ["$70 on Amazon"],
-    order: 16
-  },
-  {
-    id: "farms-race",
-    title: "Farms Race",
-    category: "board-games",
-    price: 50,
-    image: "images/farmsrace.webp",
-    description: "You play as animals fighting the humans and each other to rule the world!",
-    links: ["https://a.co/d/08QEpRvx"],
-    linksdescription: ["$50 on Amazon"],
-    order: 14
-  },
-  {
-    id: "container",
-    title: "Container",
-    category: "board-games",
-    price: 40,
-    image: "images/container.webp",
-    description: "Everyone frantically tries to build, buy, and sell to keep their little businesses going!",
-    links: ["https://cloakandgamer.com/products/container?sca_ref=8686939.qwvyzR49hO"],
-    linksdescription: ["$40 at Cloak & Gamer (might change, should be pre-owned elsewhere too)"],
-    order: 15
   },
   {
     id: "book-recommend",
@@ -232,6 +133,72 @@ const items = [
     order: 7
   },
   {
+    id: "got-five",
+    title: "Got Five!",
+    category: "board-games",
+    price: 25,
+    image: "images/gotfive.webp",
+    description: "This game is like a mix between Clue and Bingo! It should make for a really great family game.",
+    links: ["https://a.co/d/0fl56Szz"],
+    linksdescription: ["$25 on Amazon"],
+    order: 4
+  },
+  {
+    id: "scotland-yard",
+    title: "Scotland Yard: Sherlock Holmes",
+    category: "board-games",
+    price: 40,
+    image: "images/scotlandyard.webp",
+    description: "One person is secretly moving around the board while everyone else tries to catch them. It's a lot of fun for both sides!",
+    links: ["https://a.co/d/07PpbYQv"],
+    linksdescription: ["$40 on Amazon"],
+    order: 8
+  },
+  {
+    id: "for-sale",
+    title: "For Sale",
+    category: "board-games",
+    price: 23,
+    image: "images/forsale.webp",
+    description: "Quick simple game about buying houses for auction and selling them! It's kind of like a small version of Monopoly!",
+    links: ["https://a.co/d/0eItljRP"],
+    linksdescription: ["$30 on Amazon"],
+    order: 13
+  },
+  {
+    id: "weird-food",
+    title: "Any Weird or Foreign Food to Try!",
+    category: "other",
+    price: 1,
+    image: "images/mysterygift.png",
+    description: "I would love any kind of weird or new food to try. Especially if we can try it together!",
+    links: [],
+    linksdescription: [],
+    order: 1
+  },
+  {
+    id: "gloves",
+    title: "Nice Brown Leather Gloves",
+    category: "other",
+    price: 30,
+    image: "images/gloves.jpg",
+    description: "I think these gloves seem nice. Large looks like the right size.",
+    links: ["https://a.co/d/0byAfE6D"],
+    linksdescription: ["$30 on Amazon"],
+    order: 10
+  },
+  {
+    id: "brown-strap",
+    title: "Brown Strap for Watch",
+    category: "other",
+    price: 15,
+    image: "images/watchstrap.jpg",
+    description: "I would like to have a brown strap for my watch so I can wear it and my brown belt together.",
+    links: ["https://a.co/d/0bd9e4sd"],
+    linksdescription: ["$15 on Amazon"],
+    order: 7
+  },
+  {
     id: "your-turn",
     title: "Your Turn!",
     category: "books",
@@ -285,6 +252,39 @@ const items = [
     links: ["https://a.co/d/06D4xlIa", "https://www.thriftbooks.com/w/the-last-policeman_ben-h-winters/298560/?resultid=c12c84d5-12f2-4b24-905d-83a9c0e36712#edition=7281005&idiq=4170296"],
     linksdescription: ["$11 on Amazon", "$7 on Thriftbooks (Might Change)"],
     order: 5
+  },
+  {
+    id: "knightmare-chess",
+    title: "Knightmare Chess",
+    category: "board-games",
+    price: 30,
+    image: "images/knightmarechess.webp",
+    description: "Adds cards with special powers to chess!",
+    links: ["https://www.nobleknight.com/P/2147563073/Knightmare-Chess-3rd-Edition?UTM_Campaign=BGG_Shop_Now&awid=1292&utm_source=user-shared"],
+    linksdescription: ["$30 At Noble Knight Games (might change)"],
+    order: 11
+  },
+  {
+    id: "chess-joker",
+    title: "Chess Joker",
+    category: "board-games",
+    price: 40,
+    image: "images/chessjoker.webp",
+    description: "Chess, but each turn grants a new special move!",
+    links: ["https://a.co/d/0bWouwnj"],
+    linksdescription: ["$32 on Amazon"],
+    order: 12
+  },
+  {
+    id: "air-land-and-sea",
+    title: "Air, Land, and Sea",
+    category: "board-games",
+    price: 23,
+    image: "images/airlandsea.webp",
+    description: "Two players are duelling over three different warzones!",
+    links: ["https://www.nobleknight.com/P/2147864666/Air-Land-and-Sea-revised-Edition?utm_source=user-shared", "https://a.co/d/002JY0WO"],
+    linksdescription: ["$18 at Noble Knight Games (might change)", "Sequel at $20 on Amazon"],
+    order: 10
   },
   {
     id: "living-sacrifice",
@@ -408,81 +408,92 @@ const items = [
     order: 8
   },
   {
-    id: "weird-food",
-    title: "Any Weird or Foreign Food to Try!",
-    category: "other",
-    price: 1,
-    image: "images/mysterygift.png",
-    description: "I would love any kind of weird or new food to try. Especially if we can try it together!",
-    links: [],
-    linksdescription: [],
-    order: 1
-  },
-  {
-    id: "ear-plugs",
-    title: "Reusable Earplugs for Sleeping",
-    category: "other",
-    price: 25,
-    image: "images/earplugs.jpg",
-    description: "I've been using bluetooth headphones to sleep, I think these would be better on my ears.",
-    links: ["https://a.co/d/062uk5Hh"],
-    linksdescription: ["$25 on Amazon"],
-    order: 2
-  },
-  {
-    id: "sleep-mask",
-    title: "Manta Sleep Mask",
-    category: "other",
-    price: 40,
-    image: "images/eyemask.jpg",
-    description: "My bluetooth headband doesn't keep out all the light, so I think this would be helpful.",
-    links: ["https://a.co/d/05t9i5zH"],
-    linksdescription: ["$40 on Amazon"],
-    order: 3
-  },
-  {
-    id: "book-stand",
-    title: "Folding Book Stand",
-    category: "other",
-    price: 7,
-    image: "images/bookstand.jpg",
-    description: "This would be really helpful when reading and using my laptop or taking notes.",
-    links: ["https://a.co/d/00RePOJA"],
-    linksdescription: ["$7 on Amazon"],
-    order: 4
-  },
-  {
-    id: "shirt",
-    title: "This Nice Shirt",
-    category: "other",
-    price: 37,
-    image: "images/shirt.jpg",
-    description: "I really like this shirt.",
-    links: ["https://a.co/d/06JcUIMU"],
-    linksdescription: ["$37 on Amazon"],
-    order: 11
-  },
-  {
-    id: "gloves",
-    title: "Nice Brown Leather Gloves",
-    category: "other",
-    price: 30,
-    image: "images/gloves.jpg",
-    description: "I think these gloves seem nice. Large looks like the right size.",
-    links: ["https://a.co/d/0byAfE6D"],
-    linksdescription: ["$30 on Amazon"],
-    order: 10
-  },
-  {
-    id: "brown-strap",
-    title: "Brown Strap for Watch",
+    id: "reading-light",
+    title: "Reading Light",
     category: "other",
     price: 15,
-    image: "images/watchstrap.jpg",
-    description: "I would like to have a brown strap for my watch so I can wear it and my brown belt together.",
-    links: ["https://a.co/d/0bd9e4sd"],
+    image: "images/booklight.jpg",
+    description: "It would be nice just to have a little reading light.",
+    links: ["https://a.co/d/05p2W1oa"],
     linksdescription: ["$15 on Amazon"],
+    order: 8
+  },
+  {
+    id: "mantis-falls",
+    title: "Mantis Falls",
+    category: "board-games",
+    price: 38,
+    image: "images/mantisfalls.webp",
+    description: "Everyone is trying to get out of town away from the mob, but someone might be working for the mob!",
+    links: ["https://a.co/d/0fsaPeao", "https://www.nobleknight.com/P/2147952616/Mantis-Falls?utm_source=user-shared"],
+    linksdescription: ["$38 on Amazon", "$25 on Noble Knight Games (might change)"],
+    order: 5
+  },
+  {
+    id: "burgle-bros",
+    title: "Burgle Bros",
+    category: "board-games",
+    price: 50,
+    image: "images/burglebros.webp",
+    description: "Everyone tries to pull off a heist together!",
+    links: ["https://www.fowers.games/collections/homepage-products/products/burgle-bros"],
+    linksdescription: ["$46 at Fowers Games"],
+    order: 6
+  },
+  {
+    id: "fugitive",
+    title: "Fugitive",
+    category: "board-games",
+    price: 50,
+    image: "images/fugitive.webp",
+    description: "One person is trying to escape from the other in a hide and seek chase!",
+    links: ["https://www.nobleknight.com/P/2147675211/Fugitive-2016-Edition?utm_source=user-shared"],
+    linksdescription: ["$35 at Noble Knight Games (might change)"],
     order: 7
+  },
+  // {
+  //   id: "getaway-driver",
+  //   title: "Getaway Driver",
+  //   category: "board-games",
+  //   price: 10,
+  //   image: "images/getawaydriver.webp",
+  //   description: "Someone is trying to drive away from a crime scene and the other person is trying to catch them!",
+  //   links: [""],
+  //   linksdescription: [""],
+  //   order: 9
+  // },
+  {
+    id: "carcassonne",
+    title: "Carcassonne: Big Box",
+    category: "board-games",
+    price: 70,
+    image: "images/carcassonne.webp",
+    description: "It's like Blokus but everyone is building a little kingdom countryside!",
+    links: ["https://a.co/d/0h90w0cM"],
+    linksdescription: ["$70 on Amazon"],
+    order: 16
+  },
+  {
+    id: "farms-race",
+    title: "Farms Race",
+    category: "board-games",
+    price: 50,
+    image: "images/farmsrace.webp",
+    description: "You play as animals fighting the humans and each other to rule the world!",
+    links: ["https://a.co/d/08QEpRvx"],
+    linksdescription: ["$50 on Amazon"],
+    order: 14
+  },
+  {
+    id: "container",
+    title: "Container",
+    category: "board-games",
+    price: 40,
+    image: "images/container.webp",
+    description: "Everyone frantically tries to build, buy, and sell to keep their little businesses going!",
+    links: ["https://cloakandgamer.com/products/container?sca_ref=8686939.qwvyzR49hO"],
+    linksdescription: ["$40 at Cloak & Gamer (might change, should be pre-owned elsewhere too)"],
+    order: 15
   },
   {
     id: "ereader",
@@ -518,17 +529,6 @@ const items = [
     order: 14
   },
   {
-    id: "reading-light",
-    title: "Reading Light",
-    category: "other",
-    price: 15,
-    image: "images/booklight.jpg",
-    description: "It would be nice just to have a little reading light.",
-    links: ["https://a.co/d/05p2W1oa"],
-    linksdescription: ["$15 on Amazon"],
-    order: 8
-  },
-  {
     id: "folding-table",
     title: "Small Folding Table for Outside",
     category: "other",
@@ -560,5 +560,5 @@ const items = [
     links: ["https://a.co/d/0bJFU5Fn"],
     linksdescription: ["$9 on Amazon"],
     order: 5
-  }
+  },
 ];
