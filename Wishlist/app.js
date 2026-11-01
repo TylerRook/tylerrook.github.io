@@ -1,3 +1,5 @@
+let currentItems = [];
+let isRandomView = false;
 
 function createCard(item) {
     let categoryClass = "";
@@ -49,25 +51,102 @@ function createCard(item) {
 
 
 function displayItems(itemsToDisplay) {
+    currentItems = [...itemsToDisplay];
 
     // Find the container in the HTML
     const container = document.getElementById("wishlist-grid");
 
-    // Clear anything currently inside it
-    container.innerHTML = "";
+    container.innerHTML = currentItems.map(createCard).join("");
 
-    // Create a card for every item
-    itemsToDisplay.forEach(item => {
+    // // Clear anything currently inside it
+    // container.innerHTML = "";
 
-        // Generate the HTML for this item
-        const cardHTML = createCard(item);
+    // // Create a card for every item
+    // itemsToDisplay.forEach(item => {
 
-        // Add it to the webpage
-        container.innerHTML += cardHTML;
+    //     // Generate the HTML for this item
+    //     const cardHTML = createCard(item);
 
-    });
+    //     // Add it to the webpage
+    //     container.innerHTML += cardHTML;
+
+    // });
 }
 
+function showMenu() {
+    document.getElementById("splash-screen").style.display = "flex";
+    document.getElementById("wishlist-screen").style.display = "none";
+}
+
+function showWishlist() {
+    document.getElementById("splash-screen").style.display = "none";
+    document.getElementById("wishlist-screen").style.display = "block";
+}
+
+function showAll() {
+    isRandomView = false;
+    document.getElementById("shuffle-button").textContent = "Shuffle";
+    showWishlist();
+    displayItems(items);
+}
+
+function showBooks() {
+    isRandomView = false;
+    document.getElementById("shuffle-button").textContent = "Shuffle";
+    showWishlist();
+    displayItems(items.filter(item => item.category === "books"));
+}
+
+function showBoardGames() {
+    isRandomView = false;
+    document.getElementById("shuffle-button").textContent = "Shuffle";
+    showWishlist();
+    displayItems(items.filter(item => item.category === "board-games"));
+}
+
+function showOther() {
+    isRandomView = false;
+    document.getElementById("shuffle-button").textContent = "Shuffle";
+    showWishlist();
+    displayItems(items.filter(item => item.category === "other"));
+}
+
+function handleShuffle() {
+    if (isRandomView) {
+        showRandomCurrentItem();
+    } else {
+        shuffleCurrentItems();
+    }
+}
+
+function shuffleCurrentItems() {
+    const shuffled = [...currentItems];
+
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+
+    displayItems(shuffled);
+}
+
+function showRandomOrder() {
+    showAll();
+    shuffleCurrentItems();
+}
+
+function showRandomCurrentItem() {
+    if (currentItems.length === 0) return;
+    isRandomView = true;
+    document.getElementById("shuffle-button").textContent = "Next Random Item";
+    
+    currentItems = items;
+    shuffleCurrentItems();
+    showWishlist();
+    
+    displayItems([currentItems[0]]);
+}
 
 // Display all the items
 displayItems(items);
