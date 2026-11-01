@@ -61,15 +61,20 @@
 /* The title */
 .card-content h2 {
     margin: 0 0 6px 0;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 /* The category label */
 .category {
     color: #535353;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* Description */
+.item-description {
+    font-size: 24px;
 }
 
 /* The bottom section */

@@ -177,114 +177,15 @@ const items = [
     order: 15
   },
   {
-    id: "legion",
-    title: "Legion: The Many Lives of Stephen Leeds",
+    id: "book-recommend",
+    title: "Any Book you Recommend!",
     category: "books",
     price: 1,
-    image: "images/legionbook.jpg",
-    description: "A man solves murders with the help of his multiple personalities! I've heard really good things about this author.",
-    links: ["https://a.co/d/08VxdOPP", "https://www.thriftbooks.com/w/legion-the-many-lives-of-stephen-leeds_brandon-sanderson/18963126/?resultid=3e73df25-86cc-4df7-855c-242d91a8d891#edition=20215252&idiq=29691988"],
-    linksdescription: ["$18 on Amazon", "$8 on Thriftbooks (Might change)"],
-    order: 1
-  },
-  {
-    id: "storm-front",
-    title: "Storm Front",
-    category: "books",
-    price: 1,
-    image: "images/stormfrontbook.jpg",
-    description: "A wizard detective in the modern day. I've heard good things about this series.",
-    links: ["https://a.co/d/04pj69Eh", "https://www.thriftbooks.com/w/storm-front-by-jim-butcher/249959/?resultid=d670b03a-aeec-40b8-b4b7-d6e5a0351f36#edition=2400239&idiq=3816976"],
-    linksdescription: ["$10 on Amazon", "$7 on Thriftbooks (Might Change)"],
-    order: 2
-  },
-  {
-    id: "golden-torc",
-    title: "The Man with the Golden Torc",
-    category: "books",
-    price: 1,
-    image: "images/goldentorcbook.jpg",
-    description: "The story of a secret agent with magical powers!",
-    links: ["https://a.co/d/0hB156mi", "https://www.thriftbooks.com/w/the-man-with-the-golden-torc_simon-r-green/345934/?resultid=30cf005d-9acf-4f70-9089-e439ca98daf8#edition=4598779&idiq=2077981"],
-    linksdescription: ["$8 on Amazon", "$7 on Thriftbooks (Might Change)"],
-    order: 3
-  },
-  {
-    id: "all-systems-red",
-    title: "All Systems Red",
-    category: "books",
-    price: 1,
-    image: "images/allsystemsredbook.jpg",
-    description: "A security robot \"wakes up\" and doesn't want to hurt people or do his job anymore.",
-    links: ["https://a.co/d/0a0lKpmw"],
-    linksdescription: ["$10 on Amazon"],
-    order: 4
-  },
-  {
-    id: "last-policeman",
-    title: "The Last Policeman",
-    category: "books",
-    price: 1,
-    image: "images/lastpolicemanbook.jpg",
-    description: "The world is ending and a detective has to try and solve a murder in a world where no one cares anymore.",
-    links: ["https://a.co/d/06D4xlIa", "https://www.thriftbooks.com/w/the-last-policeman_ben-h-winters/298560/?resultid=c12c84d5-12f2-4b24-905d-83a9c0e36712#edition=7281005&idiq=4170296"],
-    linksdescription: ["$11 on Amazon", "$7 on Thriftbooks (Might Change)"],
-    order: 5
-  },
-  {
-    id: "dying-inside",
-    title: "Dying Inside",
-    category: "books",
-    price: 1,
-    image: "images/dyinginsidebook.jpg",
-    description: "A lifetime telepath starts losing his ability to read minds.",
-    links: ["https://a.co/d/03691PTh"],
-    linksdescription: ["$15 on Amazon"],
-    order: 6
-  },
-  {
-    id: "jerusalem-to-jaya",
-    title: "From Jerusalem to Irian Jaya",
-    category: "books",
-    price: 1,
-    image: "images/jerusalembook.jpg",
-    description: "Multiple people have recommended this one! Stories of many missionaries in all places throughout history.",
-    links: ["https://a.co/d/0bsCuwsI", "https://www.thriftbooks.com/w/from-jerusalem-to-irian-jaya-a-biographical-history-of-christian-missions_ruth-a-tucker/255254/?resultid=086973d4-e8b3-4920-89f5-2002e6c945e2#edition=3062254&idiq=6942152"],
-    linksdescription: ["$30 on Amazon", "15 on Thriftbooks (Might Change)"],
-    order: 7
-  },
-  {
-    id: "you-can-change",
-    title: "You Can Change",
-    category: "books",
-    price: 1,
-    image: "images/youcanchangebook.jpg",
-    description: "Just seems like a nice practical book on change from a christian perspective.",
-    links: ["https://a.co/d/0e6R6BHG", "https://www.thriftbooks.com/w/you-can-change_tim-chester/301316/?resultid=4eec5a70-5beb-40d7-bcca-21a720ba9eea#edition=5745553&idiq=4595985"],
-    linksdescription: ["$15 on Amazon", "$7 on Thriftbooks (might change)"],
-    order: 8
-  },
-  {
-    id: "serving-jesus-without-burning-out",
-    title: "Serving Jesus Without Burning Out",
-    category: "books",
-    price: 1,
-    image: "images/servingjesusburnout.jpg",
-    description: "Seminary has taught me that I need this book haha.",
-    links: ["https://a.co/d/03MrBrL3", "https://www.thriftbooks.com/w/serving-jesus-without-burning-out-faithful-ministry-for-the-long-haul_dr-d-scott-hildreth_steven-a-mckinion/53671374/?resultid=b9550253-efb5-4a11-988f-ead701accd63#edition=71796494&idiq=71867281"],
-    linksdescription: ["$18 on Amazon", "$18 on Thriftbooks (May Change)"],
-    order: 9
-  },
-  {
-    id: "living-sacrifice",
-    title: "Living Sacrifice",
-    category: "books",
-    price: 1,
-    image: "images/livingsacrificebook.jpg",
-    description: "The story of a missionary who went through hardship and showed an example of being a living sacrifice.",
-    links: ["https://a.co/d/0jhgNwmG"],
-    linksdescription: ["$12 on Amazon"],
-    order: 10
+    image: "images/mysterygift.png",
+    description: "I would love any book you enjoy or would recommend to me!",
+    links: [],
+    linksdescription: [],
+    order: 21
   },
   {
     id: "complete-short-stories-greene",
@@ -309,15 +210,103 @@ const items = [
     order: 12
   },
   {
-    id: "violent-century",
-    title: "The Violent Century",
+    id: "serving-jesus-without-burning-out",
+    title: "Serving Jesus Without Burning Out",
     category: "books",
     price: 1,
-    image: "images/violentcenturybook.jpg",
-    description: "How superheroes might have changed history if they appeared right after WWII!",
-    links: ["https://a.co/d/07e5JWFH", "https://www.thriftbooks.com/w/the-violent-century_lavie-tidhar/8899191/?resultid=eb226ff6-582d-4bae-a5bb-9008c1cb2612#edition=8699030&idiq=10929564"],
-    linksdescription: ["$17 on Amazon", "$6 on Thriftbooks (might change)"],
-    order: 13
+    image: "images/servingjesusburnout.jpg",
+    description: "Seminary has taught me that I need this book haha.",
+    links: ["https://a.co/d/03MrBrL3", "https://www.thriftbooks.com/w/serving-jesus-without-burning-out-faithful-ministry-for-the-long-haul_dr-d-scott-hildreth_steven-a-mckinion/53671374/?resultid=b9550253-efb5-4a11-988f-ead701accd63#edition=71796494&idiq=71867281"],
+    linksdescription: ["$18 on Amazon", "$18 on Thriftbooks (May Change)"],
+    order: 9
+  },
+  {
+    id: "jerusalem-to-jaya",
+    title: "From Jerusalem to Irian Jaya",
+    category: "books",
+    price: 1,
+    image: "images/jerusalembook.jpg",
+    description: "Multiple people have recommended this one! Stories of many missionaries in all places throughout history.",
+    links: ["https://a.co/d/0bsCuwsI", "https://www.thriftbooks.com/w/from-jerusalem-to-irian-jaya-a-biographical-history-of-christian-missions_ruth-a-tucker/255254/?resultid=086973d4-e8b3-4920-89f5-2002e6c945e2#edition=3062254&idiq=6942152"],
+    linksdescription: ["$30 on Amazon", "15 on Thriftbooks (Might Change)"],
+    order: 7
+  },
+  {
+    id: "your-turn",
+    title: "Your Turn!",
+    category: "books",
+    price: 1,
+    image: "images/yourturnbook.jpg",
+    description: "Seems like a really useful book about designing your own board games!",
+    links: ["https://a.co/d/0id4M0Oa"],
+    linksdescription: ["$26 on Amazon"],
+    order: 20
+  },
+  {
+    id: "storm-front",
+    title: "Storm Front",
+    category: "books",
+    price: 1,
+    image: "images/stormfrontbook.jpg",
+    description: "A wizard detective in the modern day. I've heard good things about this series.",
+    links: ["https://a.co/d/04pj69Eh", "https://www.thriftbooks.com/w/storm-front-by-jim-butcher/249959/?resultid=d670b03a-aeec-40b8-b4b7-d6e5a0351f36#edition=2400239&idiq=3816976"],
+    linksdescription: ["$10 on Amazon", "$7 on Thriftbooks (Might Change)"],
+    order: 2
+  },
+  {
+    id: "golden-torc",
+    title: "The Man with the Golden Torc",
+    category: "books",
+    price: 1,
+    image: "images/goldentorcbook.jpg",
+    description: "The story of a secret agent with magical powers!",
+    links: ["https://a.co/d/0hB156mi", "https://www.thriftbooks.com/w/the-man-with-the-golden-torc_simon-r-green/345934/?resultid=30cf005d-9acf-4f70-9089-e439ca98daf8#edition=4598779&idiq=2077981"],
+    linksdescription: ["$8 on Amazon", "$7 on Thriftbooks (Might Change)"],
+    order: 3
+  },
+  {
+    id: "legion",
+    title: "Legion: The Many Lives of Stephen Leeds",
+    category: "books",
+    price: 1,
+    image: "images/legionbook.jpg",
+    description: "A man solves murders with the help of his multiple personalities! I've heard really good things about this author.",
+    links: ["https://a.co/d/08VxdOPP", "https://www.thriftbooks.com/w/legion-the-many-lives-of-stephen-leeds_brandon-sanderson/18963126/?resultid=3e73df25-86cc-4df7-855c-242d91a8d891#edition=20215252&idiq=29691988"],
+    linksdescription: ["$18 on Amazon", "$8 on Thriftbooks (Might change)"],
+    order: 1
+  },
+  {
+    id: "last-policeman",
+    title: "The Last Policeman",
+    category: "books",
+    price: 1,
+    image: "images/lastpolicemanbook.jpg",
+    description: "The world is ending and a detective has to try and solve a murder in a world where no one cares anymore.",
+    links: ["https://a.co/d/06D4xlIa", "https://www.thriftbooks.com/w/the-last-policeman_ben-h-winters/298560/?resultid=c12c84d5-12f2-4b24-905d-83a9c0e36712#edition=7281005&idiq=4170296"],
+    linksdescription: ["$11 on Amazon", "$7 on Thriftbooks (Might Change)"],
+    order: 5
+  },
+  {
+    id: "living-sacrifice",
+    title: "Living Sacrifice",
+    category: "books",
+    price: 1,
+    image: "images/livingsacrificebook.jpg",
+    description: "The story of a missionary who went through hardship and showed an example of being a living sacrifice.",
+    links: ["https://a.co/d/0jhgNwmG"],
+    linksdescription: ["$12 on Amazon"],
+    order: 10
+  },
+  {
+    id: "logical-chess",
+    title: "Logical Chess Move by Move",
+    category: "books",
+    price: 1,
+    image: "images/logicalchessbook.jpg",
+    description: "I would like to learn how to play chess better.",
+    links: ["https://a.co/d/08SxEwST"],
+    linksdescription: ["$23 on Amazon"],
+    order: 18
   },
   {
     id: "hike-strong",
@@ -331,6 +320,17 @@ const items = [
     order: 14
   },
   {
+    id: "board-games-100-moves",
+    title: "Board Games in 100 Moves",
+    category: "books",
+    price: 1,
+    image: "images/boardgamemovesbook.jpg",
+    description: "Seems like a really interesting book on the history of board games.",
+    links: ["https://a.co/d/0hM8tP56", "https://www.thriftbooks.com/w/board-games-in-100-moves_ian-livingstone/20176361/?resultid=c81dfecc-dc57-46ed-b5af-edf4b69da528#edition=21476689&idiq=48051807"],
+    linksdescription: ["$19 on Amazon", "$9 on Thriftbooks (might change)"],
+    order: 19
+  },
+  {
     id: "make-it-stick",
     title: "Make it Stick: The Science of Successful Learning",
     category: "books",
@@ -340,6 +340,17 @@ const items = [
     links: ["https://a.co/d/01bAyVFW", "https://www.thriftbooks.com/w/make-it-stick-the-science-of-successful-learning_henry-l-roediger-iii_peter-c-brown/9045063/?resultid=be7dce3a-8915-41e7-8565-3efff6c867db#edition=8324513&idiq=7186350"],
     linksdescription: ["$34 on Amazon", "$25 on Thriftbooks"],
     order: 15
+  },
+  {
+    id: "violent-century",
+    title: "The Violent Century",
+    category: "books",
+    price: 1,
+    image: "images/violentcenturybook.jpg",
+    description: "How superheroes might have changed history if they appeared right after WWII!",
+    links: ["https://a.co/d/07e5JWFH", "https://www.thriftbooks.com/w/the-violent-century_lavie-tidhar/8899191/?resultid=eb226ff6-582d-4bae-a5bb-9008c1cb2612#edition=8699030&idiq=10929564"],
+    linksdescription: ["$17 on Amazon", "$6 on Thriftbooks (might change)"],
+    order: 13
   },
   {
     id: "shoulders-hobbits",
@@ -364,48 +375,37 @@ const items = [
     order: 17
   },
   {
-    id: "logical-chess",
-    title: "Logical Chess Move by Move",
+    id: "all-systems-red",
+    title: "All Systems Red",
     category: "books",
     price: 1,
-    image: "images/logicalchessbook.jpg",
-    description: "I would like to learn how to play chess better.",
-    links: ["https://a.co/d/08SxEwST"],
-    linksdescription: ["$23 on Amazon"],
-    order: 18
+    image: "images/allsystemsredbook.jpg",
+    description: "A security robot \"wakes up\" and doesn't want to hurt people or do his job anymore.",
+    links: ["https://a.co/d/0a0lKpmw"],
+    linksdescription: ["$10 on Amazon"],
+    order: 4
   },
   {
-    id: "board-games-100-moves",
-    title: "Board Games in 100 Moves",
+    id: "dying-inside",
+    title: "Dying Inside",
     category: "books",
     price: 1,
-    image: "images/boardgamemovesbook.jpg",
-    description: "Seems like a really interesting book on the history of board games.",
-    links: ["https://a.co/d/0hM8tP56", "https://www.thriftbooks.com/w/board-games-in-100-moves_ian-livingstone/20176361/?resultid=c81dfecc-dc57-46ed-b5af-edf4b69da528#edition=21476689&idiq=48051807"],
-    linksdescription: ["$19 on Amazon", "$9 on Thriftbooks (might change)"],
-    order: 19
+    image: "images/dyinginsidebook.jpg",
+    description: "A lifetime telepath starts losing his ability to read minds.",
+    links: ["https://a.co/d/03691PTh"],
+    linksdescription: ["$15 on Amazon"],
+    order: 6
   },
   {
-    id: "your-turn",
-    title: "Your Turn!",
+    id: "you-can-change",
+    title: "You Can Change",
     category: "books",
     price: 1,
-    image: "images/yourturnbook.jpg",
-    description: "Seems like a really useful book about designing your own board games!",
-    links: ["https://a.co/d/0id4M0Oa"],
-    linksdescription: ["$26 on Amazon"],
-    order: 20
-  },
-  {
-    id: "book-recommend",
-    title: "Any Book you Recommend!",
-    category: "books",
-    price: 1,
-    image: "images/mysterygift.png",
-    description: "I would love any book you enjoy or would recommend to me!",
-    links: [],
-    linksdescription: [],
-    order: 21
+    image: "images/youcanchangebook.jpg",
+    description: "Just seems like a nice practical book on change from a christian perspective.",
+    links: ["https://a.co/d/0e6R6BHG", "https://www.thriftbooks.com/w/you-can-change_tim-chester/301316/?resultid=4eec5a70-5beb-40d7-bcca-21a720ba9eea#edition=5745553&idiq=4595985"],
+    linksdescription: ["$15 on Amazon", "$7 on Thriftbooks (might change)"],
+    order: 8
   },
   {
     id: "weird-food",
@@ -445,7 +445,7 @@ const items = [
     title: "Folding Book Stand",
     category: "other",
     price: 7,
-    image: "images/foldingtable.jpg",
+    image: "images/bookstand.jpg",
     description: "This would be really helpful when reading and using my laptop or taking notes.",
     links: ["https://a.co/d/00RePOJA"],
     linksdescription: ["$7 on Amazon"],
