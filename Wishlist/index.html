@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tyler's Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="christmas-lights">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="snowfall-front"></div>
+<div class="snowfall-back"></div>
+    
+
+
+<h1><center><p class="page-title" style="font-size:50px;color:#24583d;text-shadow: 2px 2px rgb(153, 5, 5);">TYLER'S WISHLIST</p></center></h1>
+
+
+
+<!-- <article class="item-card">
+  <img src="images/gruntz.webp" alt="Gruntz">
+  <h2>Gruntz</h2>
+  <p>A compact game I'm particularly excited to try.</p>
+  <p class="price">$24</p>
+  <a href="https://google.com">View item</a>
+</article>
+
+
+
+
+<div class="item-card">
+    <img src="images/gruntz.jpg" alt="Gruntz">
+
+    <div class="card-content">
+        <h2>Gruntz</h2>
+        <p class="category">Board Game</p>
+        <p>A game I'm particularly excited to try.</p>
+
+        <div class="card-footer">
+            <span class="price">$24</span>
+            <a href="#">View item</a>
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- Splash Screen -->
+<section id="splash-screen" class="splash-screen">
+
+    <h1>WELCOME!</h1>
+
+    <p class="splash-subtitle">
+        I love you all and I wanted to better share some of my interests with you and hopefully make gift shopping easier and more fun this year! I hope you enjoy looking around and I will love anything that I get.
+        If anything is broken, please don't hesitate to let me know!
+    </p>
+
+    <div class="menu-buttons">
+
+        <button onclick="showAll()">View All</button>
+
+        <button onclick="showBooks()">Books</button>
+
+        <button onclick="showBoardGames()">Board Games</button>
+
+        <button onclick="showOther()">Normal Gifts</button>
+
+        <button onclick="showRandomOrder()">Shuffle Everything</button>
+
+        <button onclick="showRandomCurrentItem()">Surprise Me!</button>
+
+    </div>
+
+</section>
+
+
+<!-- Wishlist Display -->
+<section id="wishlist-screen" style="display: none;">
+
+    <button onclick="showMenu()" class="back-button">
+        ← Back to Menu
+    </button>
+
+    <button id="shuffle-button" onclick="handleShuffle()" class="back-button">
+        Shuffle
+    </button>
+
+    <div id="wishlist-grid" class="wishlist-grid"></div>
+
+</section>
+
+
+
+<div id="wishlist-grid" class="wishlist-grid">
+    <!-- JavaScript will put the cards here -->
+</div>
+
+<script src="items.js"></script>
+<script src="app.js"></script>
+
+
+
+</body>
+</html>
+
