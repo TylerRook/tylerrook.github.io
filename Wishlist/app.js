@@ -35,7 +35,7 @@ function createCard(item) {
                     <div class="card-footer">
 
                         ${item.links.map((link, index) => `
-                            <a href="${link}" target="_blank" rel="noopener noreferrer">
+                            <a class="storelink" href="${link}" target="_blank" rel="noopener noreferrer">
                                 ${item.linksdescription[index]}
                             </a>
                         `).join("")}
