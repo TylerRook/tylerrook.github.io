@@ -30,7 +30,7 @@ function createCard(item) {
                         ${item.category}
                     </p>
 
-                    <p>${item.description}</p>
+                    <p class="item-description">${item.description}</p>
 
                     <div class="card-footer">
 

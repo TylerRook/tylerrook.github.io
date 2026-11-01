@@ -11,6 +11,7 @@
     - [X] Gruntz supplies
     - [X] Spies lies and supplies
 - [ ] Maybe reorder things in terms of priority?
+- [X] Description font a bit bigger
 - [X] Center the random book?
 - [ ] Deploy on the website.
 - [ ] Look at it on my phone and see what it looks like.
